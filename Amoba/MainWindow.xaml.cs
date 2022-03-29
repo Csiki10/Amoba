@@ -23,6 +23,10 @@ namespace Amoba
         public MainWindow()
         {
             InitializeComponent();
+
+            Logic logic = new Logic();
+            display.SetupModel(logic);
+            display.Resize(new Size(grid.ActualWidth, grid.ActualHeight));
         }
     }
 }
