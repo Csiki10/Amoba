@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Amoba
 {
-    class Display
+    public class Display
     {
     }
 }
